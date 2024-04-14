@@ -34,12 +34,13 @@ _I'd love for you to make the most of this project - it's all about learning, he
 
 3. **Install Required Dependencies**
     ```bash
-    sudo apt install npm
-    cd ~ 
+# install node version  manager    
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+# download and install node.js
     nvm install 21
+# reboot
     sudo reboot
-    nvm install 21
+# version check 
     nvm -v
     node -v
     npm -v
