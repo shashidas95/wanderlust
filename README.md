@@ -33,6 +33,17 @@ _I'd love for you to make the most of this project - it's all about learning, he
    ```
 
 3. **Install Required Dependencies**
+    ```bash
+    sudo apt install npm
+    cd ~ 
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    nvm install 21
+    sudo reboot
+    nvm install 21
+    nvm -v
+    node -v
+    npm -v
+    ```
 
    ```bash
    npm i
